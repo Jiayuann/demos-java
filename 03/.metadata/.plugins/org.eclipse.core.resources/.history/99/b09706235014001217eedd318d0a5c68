@@ -1,0 +1,4 @@
+import java.util.Scanner; 
+public class NinePalace{    
+	public static void main(String[] args){         // 定义 N 为九宫格的行列数，需要输入         System.out.println("请输入九宫格的行列规模(只能是奇数的)");         Scanner n = new Scanner(System.in); 
+}

@@ -1,0 +1,33 @@
+public class TestArrays{
+    public static void main(String []args){
+       int[][] a=new int[3][3];
+       int[][] b=new int[3][3];
+       int[][] c=new int[3][3];
+       //循环出两个二维数组，如果是给定的数组，就可以直接写最后的一个循环了
+       System.out.println("矩阵A是：");
+       for(int i=0;i<a.length;i++){
+           for(int j=0;j<a[0].length;j++){
+                 a[i][j]=(int)((Math.random())*10);
+                 System.out.println(a[i][j]+"   ");
+           }
+      }
+      System.out.println("矩阵B是：");
+       for(int i=0;i<b.length;i++){
+           for(int j=0;j<b[0].length;j++){
+                 b[i][j]=(int)((Math.random())*10);
+                 System.out.println(b[i][j]+"   ");
+           }
+      }
+     System.out.println("矩阵A X B是：");
+           for(int i=0;i<c.length;i++){
+                for(int j=0;j<c[0].length;j++){
+                     c[i][j]=0;
+                     for(int k=0;k<c.length;k++){
+                            c[i][j]=a[i][k]*b[k][j]|c[i][j];
+                     }
+                     System.out.print(c[i][j]+"  ");
+               }
+               System.out.println();
+         }
+   }
+}

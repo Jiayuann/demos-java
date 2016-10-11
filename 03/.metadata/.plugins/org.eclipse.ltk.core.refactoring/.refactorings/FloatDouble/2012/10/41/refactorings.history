@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;doublemaxmin&apos; to &apos;FloatDouble&apos;&#x0D;&#x0A;- Original project: &apos;double&apos;&#x0D;&#x0A;- Original element: &apos;doublemaxmin&apos;&#x0D;&#x0A;- Renamed element: &apos;FloatDouble&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;doublemaxmin&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{doublemaxmin.java[doublemaxmin" matchStrategy="1" name="FloatDouble" qualified="false" references="true" similarDeclarations="false" stamp="1350006363129" textual="false" version="1.0"/>
+</session>

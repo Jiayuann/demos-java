@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class QQtest {
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);			// 创建扫描器
+        System.out.println("请输入您的QQ等级：");
+        int i = scan.nextInt();							// 接收用户输入的等级
+		if(i==1)
+			System.out.println("您的活跃天数为5天");
+		else if(i==4)
+			System.out.println("您的活跃天数为32天");
+		else if(i==8)
+			System.out.println("您的活跃天数为96天");
+		else if(i==12)
+			System.out.println("您的活跃天数为192天");
+		else if(i==16)
+			System.out.println("您的活跃天数为320天");
+		else if(i==32)
+			System.out.println("您的活跃天数为1152天");
+		else if(i==48)
+			System.out.println("您的活跃天数为2496天");
+		else if(i==64)
+			System.out.println("您的活跃天数为4352天");
+		else
+			System.out.println("对不起，您的活跃天数暂时未知");
+	}
+}
